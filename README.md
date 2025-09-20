@@ -1,33 +1,39 @@
-# Transfer Learning - Cats vs Dogs 🐱🐶
+# 🐱🐶 Transfer Learning - Cats vs Dogs
+
+Projeto do Bootcamp **BairesDev Machine Learning (DIO)** para aplicar Transfer Learning em Deep Learning com Python.
 
 ## 📖 Descrição
-Este projeto faz parte do Bootcamp BairesDev Machine Learning na DIO.
-O objetivo é aplicar **Transfer Learning** utilizando uma rede pré-treinada.
+Este projeto demonstra como utilizar um modelo pré-treinado (MobileNetV2) para classificar imagens entre duas classes: **gatos e cachorros**.
+
+O dataset usado foi o **Cats vs Dogs** disponível no [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs).
 
 ## 🎯 Objetivos
-- Aplicar Transfer Learning em Deep Learning com Python.
-- Treinar modelo binário em dataset de imagens.
-- Documentar experiência e resultados.
+- Aplicar Transfer Learning em um problema de classificação de imagens.
+- Treinar um modelo binário em dataset real.
+- Documentar processo e resultados no GitHub.
 
-## 📂 Estrutura do Projeto
-- `transfer_learning_cats_dogs.ipynb` → Notebook no Google Colab.
-- `/images` → prints de treino, gráficos e resultados.
-- `README.md` → documentação detalhada.
-
-## 📊 Resultados
-- Modelo treinado com [MobileNetV2].
-- Acurácia no conjunto de validação: **xx%**.
-- Exemplos de previsão:
-
-<img src="images/example1.png" width="300">
+## 📂 Estrutura do Repositório
+```
+├── transfer_learning.ipynb # Notebook com código
+├── README.md # Documentação do projeto
+└── /images # Prints de gráficos/resultados (opcional)
+```
 
 ## 🚀 Como Executar
-1. Abrir no Google Colab.
-2. Instalar dependências (`tensorflow`, `keras`, etc.).
-3. Rodar todas as células.
+1. Abrir o notebook no Google Colab.
+2. Instalar dependências (TensorFlow, TensorFlow Datasets).
+3. Executar todas as células.
+
+## 📊 Resultados
+- Modelo: **MobileNetV2 (pré-treinado no ImageNet)**
+- Épocas: 5
+- Acurácia no teste: **xx%**
+- Gráfico de acurácia:
+
+<img src="images/accuracy.png" width="400">
 
 ## 🔗 Dataset
-- Cats vs Dogs: [link Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
+- Cats vs Dogs: [link oficial](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
 
 ## 👩‍💻 Autora
-Projeto desenvolvido por [Seu Nome].
+Projeto desenvolvido por **[Seu Nome]**.
