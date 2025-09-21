@@ -36,4 +36,4 @@ O dataset usado foi o **Cats vs Dogs** disponível no [TensorFlow Datasets](http
 - Cats vs Dogs: [link oficial](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
 
 ## 👩‍💻 Autora
-Projeto desenvolvido por **[Seu Nome]**.
+Projeto desenvolvido por **Enaile Lopes**.
